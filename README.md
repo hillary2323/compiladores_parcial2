@@ -1,4 +1,4 @@
-# compiladores_parcial2
+# compiladores_ parte_de_parcial2_tarea_expresiones
 #compiladoresparcial2
 #PROYECTO EN GRUPO
 
