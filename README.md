@@ -20,9 +20,15 @@ Presentación en Pantalla de Tokens
 - Visualización en Pantalla: El programa tiene la capacidad de mostrar en pantalla la lista de tokens válidos si el usuario elige esta opción.
 
 Uso del Programa
-INTRUCCIONES PARA SU USO: Ejecutar el programa y sigue las instrucciones en pantalla. Elegir el archivo de texto o escribir lo que se desea analizar. El programa mostrará los tokens válidos encontrados o generará un archivo con la lista de tokens, según la opción nosotros elijamos. Si se detecta un token inválido, el programa mostrará un mensaje de error con detalles sobre el problema.
 
+Uso del Programa INTRUCCIONES PARA SU USO: Ejecutar el programa y sigue las instrucciones en pantalla. Elegir el archivo de texto o escribir lo que se desea analizar. El programa mostrará los tokens válidos encontrados o generará un archivo con la lista de tokens, según la opción nosotros elijamos. Si se detecta un token inválido, el programa mostrará un mensaje de error con detalles sobre el problema.
 
+Analizador Sintactico se desarrolla con un flujo de tokens en el cual se identifican las siguientes funciones:
+
+Tabla de tokens : parte del SCANER que identififica el tipo de token del lexema ingresado
+Tabla de operadores: es donde podemos observar los distintos operadores identificados en el texto de entrada ordenados por filas y columnas
+Tabla de simbolos : es la estructura donde se procesa la traduccion del compilador a cada simbolo desarrolllado en el codigo fuente.
+Tabla de ID : Indicadores de los lexemas, muestra si son variables o palabras reservadas.
 Analizador Sintactico se desarrolla con un flujo de tokens en el cual se identifican las siguientes funciones:
 * Tabla de tokens : parte del SCANER que identififica el tipo de token del lexema ingresado 
 * Tabla de operadores: es donde podemos observar los distintos operadores identificados en el texto de entrada ordenados por filas y columnas
